@@ -18,8 +18,8 @@ const age = document.getElementById("age-choice");
 
 // hairstyle & age arrays
 
-const hairstyles = ['hairstyle1', 'hairstyle2'];
-const ages = ['kid', 'adult'];
+const hairstyles = ['Retwist', 'Retwist w/no Design'];
+const ages = ['Child', 'Adult'];
 
 // button and data transfer functions 
 
@@ -27,22 +27,30 @@ function hairChoiceOne() {
     hairstyle.value = `${hairstyles[0]}`;
     hairstyleBtnOne.disabled = true;
     hairstyleBtnTwo.disabled = true;
+    hairstyleBtnOne.style.backgroundColor = "pink";
+    hairstyleBtnOne.innerHTML = "Submitted";
 }
 function hairChoiceTwo() {
     hairstyle.value = `${hairstyles[1]}`;
     hairstyleBtnOne.disabled = true;
     hairstyleBtnTwo.disabled = true;
+    hairstyleBtnTwo.style.backgroundColor = "pink";
+    hairstyleBtnTwo.innerHTML = "Submitted";
 }
 function ageChoiceOne() {
     age.value = `${ages[0]}`;
     kidBtn.disabled = true;
     adultBtn.disabled = true;
+    kidBtn.style.backgroundColor = "pink";
+    kidBtn.innerHTML = "Submitted";
 
 }
 function ageChoiceTwo() {
     age.value = `${ages[1]}`;
     kidBtn.disabled = true;
     adultBtn.disabled = true;
+    adultBtn.style.backgroundColor = "pink";
+    adultBtn.innerHTML = "Submitted";
 }
 
 // form submission algorithm
@@ -50,6 +58,7 @@ form.addEventListener('submit', e => {
     e.preventDefault();
     submit.disabled = true;
     submit.innerHTML = "Submitting...";
+    submit.style.backgroundColor = "pink";
     console.log(form);
     fetch(url, { mode: 'no-cors', method: 'POST', body: new FormData(form)})
     .then(response => { 
@@ -58,7 +67,16 @@ form.addEventListener('submit', e => {
         adultBtn.disabled = false;
         hairstyleBtnOne.disabled = false;
         hairstyleBtnTwo.disabled = false;
+        hairstyleBtnOne.style.backgroundColor = "";
+        hairstyleBtnOne.innerHTML = "Retwist";
+        hairstyleBtnTwo.style.backgroundColor = "";
+        hairstyleBtnTwo.innerHTML = "Retwist w/no Design";
+        kidBtn.style.backgroundColor = "";
+        kidBtn.innerHTML = "Child";
+        adultBtn.style.backgroundColor = "";
+        adultBtn.innerHTML = "Adult";
         submit.innerHTML = "Submit";
+        submit.style.backgroundColor = "";
         form.reset();
         alert('Thank you, we will be in touch with you shortly!', response)})
     .catch(error => alert('Error!', error.message))

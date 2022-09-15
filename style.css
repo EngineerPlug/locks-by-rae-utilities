@@ -1,4 +1,27 @@
 * {
     font-family: 'Oswald', sans-serif;
+}
 
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article {
+    text-align: center;
+}
+
+.hairstyle-options {
+    display: flex;
+    list-style: none;
+}
+
+.age-options {
+    display: flex;
+    list-style: none;
+}
+
+.footer-list {
+    display: flex;
+    list-style: none;
 }
