@@ -54,6 +54,10 @@ form.addEventListener('submit', e => {
     fetch(url, { mode: 'no-cors', method: 'POST', body: new FormData(form)})
     .then(response => { 
         submit.disabled = false;
+        kidBtn.disabled = false;
+        adultBtn.disabled = false;
+        hairstyleBtnOne.disabled = false;
+        hairstyleBtnTwo.disabled = false;
         submit.innerHTML = "Submit";
         form.reset();
         alert('Thank you, we will be in touch with you shortly!', response)})
