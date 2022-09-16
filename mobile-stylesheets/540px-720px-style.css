@@ -1,0 +1,185 @@
+@media only screen and (min-width: 540px) and (min-height: 720px) {
+    * {
+        font-family: 'Raleway', sans-serif;
+
+  }
+  
+  
+  html {
+      overflow-x: hidden;
+  }
+  
+  h1 {
+      padding-left: 2px;
+      font-size: 20px;
+      position: relative;
+      bottom: 6px;
+  }
+  
+  h2 {
+      font-size: 20px;
+      text-align: left;
+      padding: 10px;
+      border-bottom: 1px solid pink;
+      width: 50%;
+  }
+
+  .span-one {
+    color: #66cdaa;
+  }
+
+  .span-two {
+    color: pink;
+  }
+  
+  body {
+      margin-left: auto;
+      margin-right: auto;
+      background: #d1bea857;
+      background-attachment: fixed;
+  }
+  
+  header {
+      /*background: #b3916b80;*/
+      background: url("locks-by-raee.jpg");
+      background-size: cover;
+      width: 100%;
+      height: 75vh;
+  }
+  
+  main {
+      text-align: center;
+      justify-content: center;
+      background-attachment: unset;
+  }
+  
+  section {
+      background: white;
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  .hairstyle-div {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  #hairstyle-one,
+  #hairstyle-two,
+  #kid,
+  #adult,
+  #submit {
+    text-transform: uppercase;
+    background: #66cdaa;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    width: 100%;
+  }
+
+  .age-div {
+    width: 100%;
+  }
+  
+  img {
+      height: 300px;
+      width: 100%;
+  }
+  
+  .cashapp-list {
+      list-style: none;
+      display: flex;
+      float: right;
+      position: relative;
+      bottom: 65px;
+      padding-right: 5px;
+      font-size: 13px;
+  }
+  
+  .cashapp-list li {
+      padding: 3px;
+      position: relative;
+      top: 30px;
+  }
+  
+  #cashapp {
+      border: none;
+      height: 35px;
+      width: 100%;
+      position: relative;
+      bottom: 20px;
+  }
+  
+  .hairstyle-options {
+      display: flex;
+      list-style: none;
+      /*text-align: center;*/
+      justify-content: center;
+      padding-right: 30px;
+  }
+  
+  .hairstyle-options li {
+      width: 50%;
+      padding: 1px;
+  }
+  
+  .age-options {
+      display: flex;
+      list-style: none;
+      /*text-align: center;*/
+      justify-content: center;
+      padding-left: 120px;
+  }
+  
+  .age-options li {
+      width: 50%;
+      padding: 1px;
+    
+  }
+  
+  .form-div {
+      width: 100%;
+  }
+  
+  form {
+      width: 100%;
+      padding-bottom: 20px;
+      background: rgb(219, 212, 203);
+      height: 20vh;
+  }
+  
+  form input {
+      background: none;
+      border-left: none;
+      border-right: none;
+      border-top: none;
+  }
+  
+  footer {
+      height: 35vh;
+  }
+  
+  .footer-list {
+      display: flex;
+      list-style: none;
+      text-align: center;
+      justify-content: center;
+  }
+  
+  .footer-list li {
+      padding: 15px;
+      width: 15%;
+  }
+
+  .social-nav {
+    height: 50px;
+  }
+  
+  .credits {
+      text-align: center;
+  }
+  } 

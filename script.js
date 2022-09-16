@@ -18,7 +18,7 @@ const age = document.getElementById("age-choice");
 
 // hairstyle & age arrays
 
-const hairstyles = ['Retwist', 'Retwist w/no Design'];
+const hairstyles = ['Retwist w/ Style', 'Retwist no Style'];
 const ages = ['Child', 'Adult'];
 
 // button and data transfer functions 
