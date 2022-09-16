@@ -1,10 +1,14 @@
-* {
+/* {
     font-family: 'Oswald', sans-serif;
 }
 
 
 html {
     overflow-x: hidden;
+}
+
+h1 {
+    padding-left: 50px;
 }
 
 h2 {
@@ -23,62 +27,6 @@ body {
 header {
     background: #b3916b80;
     height: 35vh;
-    margin-left: 300px;
-    margin-right: 300px;
-}
-
-main {
-    text-align: center;
-    justify-content: center;
-    background-attachment: unset;
-}
-
-article {
-    background: rgb(235, 234, 233);
-    text-align: center;
-    justify-content: center;
-    margin-left: 300px;
-    margin-right: 300px;
-}
-
-section {
-    background: white;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-img {
-    height: 300px;
-    width: 100%;
-}
-
-.hairstyle-options {
-    display: flex;
-    list-style: none;
-    text-align: center;
-    justify-content: center;
-}
-
-.hairstyle-options li {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.age-options {
-    display: flex;
-    list-style: none;
-    text-align: center;
-    justify-content: center;
-}
-
-.age-options li {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .form-div {
@@ -86,8 +34,6 @@ img {
 }
 
 form {
-    margin-left: 60px;
-    margin-right: 60px;
     padding-bottom: 20px;
     background: rgb(219, 212, 203);
 }
@@ -109,8 +55,14 @@ footer {
 .footer-list {
     display: flex;
     list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-list li {
+    padding: 15px;
 }
 
 .credits {
     text-align: center;
-}
+}*/

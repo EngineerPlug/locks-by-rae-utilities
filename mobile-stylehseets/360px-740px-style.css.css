@@ -1,0 +1,89 @@
+@media only screen and (min-width: 360px) and (min-height: 740px) {
+    body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1,
+    p {
+        text-align: center;
+    }
+    p {
+      font-size: 20px;
+    }
+    h6 {
+      font-size: 20px;
+    }
+    .form-div {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      height: 100vh;
+    }
+    form {
+      background: rgba(28, 5, 90, 0.781);
+      width: 100%;
+      height: 50vh;
+      display: grid;
+      position: relative;
+      bottom: 20px;
+    }
+    .call-to-action {
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+        position: relative;
+        bottom: 5px;
+    }
+    .social-btn-cta {
+        padding-left: 40px;
+        font-size: 20px;
+    }
+    span {
+        color: white;
+    }
+    input {
+      font-size: 20px;
+      line-height: 50px;
+      background: none;
+      border: 1px solid black;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      padding-left: 10px;
+      position: relative;
+      bottom: 25px;
+    }
+    .form-btn-div {
+        text-align: right;
+        width: 100%;
+    }
+    #submit {
+        background: rgba(32, 32, 224, 0.849);
+        text-transform: uppercase;
+        color: white;
+        font-size: 30px;
+        border: none;
+        width: 40%;
+    }
+    #submit:hover {
+      cursor: pointer;
+    }
+    .twitter,
+    .facebook,
+    .youtube,
+    .github,
+    .fiverr {
+        border: none;
+        background: none;
+    }
+    
+    ul {
+      display: flex;
+      list-style: none;
+    }
+    footer {
+      background: none;
+      text-align: center;
+      justify-content: center;
+    }
+  }
